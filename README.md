@@ -1,6 +1,6 @@
-# edge-stream-core
+# edge-stream-core 
 Closed Alpha product: The Data Curation Engine for L4 Robotics &amp; Embodied AI.
-`edge-stream` is a zero-copy, ring-buffer engine that sits between your Transport Layer (DDS/NITROS) and your Storage. It buffers high-bandwidth sensor data in RAM/VRAM and only flushes to disk when a semantic trigger fires. Edge Stream is designed to run alongside high-performance transport layers like **NVIDIA NITROS**.
+`edge-stream` is a zero-copy, ring-buffer engine that sits between your Transport Layer (DDS/NITROS) and your Storage. It buffers high-bandwidth sensor data in RAM/VRAM and only flushes to disk when a semantic trigger fires. Edge Stream is designed to run alongside high-performance transport layers like **NVIDIA NITROS**. If you like to discuss or sign up to alpha, please email: alpha-access@edgestream-core.com. 
 
 - NITROS Compatible: Can tap into NVIDIA NvBufSurface to buffer GPU memory without CPU copying.
 - Pre-Event Recall: Configurable "Lookback" window. Capture the 30 seconds leading up to a disengagement.
